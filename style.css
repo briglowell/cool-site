@@ -1,0 +1,106 @@
+:root {
+  --shadow: 2px 0 5px rgba(49, 49, 49, 0.5);
+  --text-color: #3a3838;
+  --dark: #3a3838;
+  --black: black;
+  --dark-lighten: #504c4c;
+  --light: #fdfdfd;
+  --head-bg-color: #1c4587;
+  --head-text-color: #f0ebff;
+  --img-blue: #498af2;
+  --accent-bar-blue: #cde2f7;
+}
+
+header {
+  height: 60px;
+}
+
+footer {
+  height: 100px;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  background-color: #f5f3fc;
+}
+
+.body-text {
+  width: 70%;
+  padding-left: 85px;
+  font-size: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-left {
+  padding-left: 100px;
+  flex: 75%;
+}
+
+.column-right {
+  padding: 50px;
+  flex: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.accent-bar {
+  color: var(--accent-bar-blue);
+  background-color: var(--accent-bar-blue);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light {
+  color: var(--light)
+}
+
+.bg-head-foot {
+  background-color: var(--head-bg-color);
+}
+
+.bg-main {
+  background-color: var(--black);
+}
+
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+
+.giant-header {
+  font-size: 40px;
+}
+
+.tiny-font {
+  font-size: 12px;
+}
+
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: var(--img-blue);
+}
+
+.box-text {
+  padding-top: 50px;
+  padding-left: 55px;
+  /* align-content: center; */
+  color: #f0ebff;
+}
